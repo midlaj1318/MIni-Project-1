@@ -1,6 +1,11 @@
 from tkinter import *
 import requests
-API_KEY = "c46a4f2af76e34f3e21d640a47ced23b"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+API_KEY = os.getenv("OPENWEATHER_API_KEY")
 
 root = Tk()
 def get_weather():
