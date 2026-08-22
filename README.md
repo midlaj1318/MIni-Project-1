@@ -1,2 +1,1 @@
-# MIni-Project-1
-My  first mini project as a student, Weather Dashboard.
+Weather Dashboard built using Python, Tkinter and OpenWeather API.
